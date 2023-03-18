@@ -23,6 +23,8 @@ body {
 h2 {
   font-size: 1.75rem;
   font-weight: 300;
+  text-decoration: underline 1px solid rgba(255, 255, 255, 0.2);
+  text-underline-offset: 0.3em;
 }
 
 ul {
@@ -31,16 +33,14 @@ ul {
 
 .price {
   font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
+  align-self: center;
 }
 
 button {
-  align-self: center;
   background: transparent;
   display: flex;
   justify-content: space-between;
-  width: 80%;
+
   align-items: center;
   border: 2px solid #fff;
   border-radius: 0.5em;
