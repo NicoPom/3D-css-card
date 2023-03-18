@@ -10,7 +10,7 @@ document.addEventListener("mousemove", (e) => {
     const cardRect = card.getBoundingClientRect();
     const cardCenterX = cardRect.left + cardRect.width / 2;
     const cardCenterY = cardRect.top + cardRect.height / 2;
-    const intensity = 9;
+    const intensity = 15;
 
     // Calculate the distance between the mouse and the center of the card.
     const deltaX = mouseX - cardCenterX;
